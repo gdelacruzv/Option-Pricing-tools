@@ -15,7 +15,7 @@ Each model has various parameters that user needs to import:
 - Strike price  
 - Expiry date  
 - Risk-free rate  
-- Volatilit
+- Volatility
 
 Option pricing models are implemented in Python 3.7. Latest spot price, for specified ticker, is fetched from Yahoo Finance API using pandas-datareader. Visualization of the models through simple web app is implemented using streamlit library.
 
